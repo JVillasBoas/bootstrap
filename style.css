@@ -1,4 +1,38 @@
-a 
-{
-    
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+body{
+    background-color:#120f14;
+    font-family: "Roboto", sans-serif;
 }
+.barra {
+    background: rgb(18,15,20);
+    background: linear-gradient(90deg, #120f14 15%, #e64500 50%, #120f14 85%);
+    height: 4px;
+    margin: 5%;
+}
+
+.azul {
+    color: #24c7f1;
+}
+
+#sobre {
+    width: 62%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sobre > h1 {
+    color: #e84600;
+}
+
+#sobre > h5 {
+    color: white;
+    margin: 3%;
+}
+
+#sobre > h6 {
+    color: rgb(204, 199, 199);
+    margin: 3%;
+}
+
