@@ -4,6 +4,11 @@ body{
     background-color:#120f14;
     font-family: "Roboto", sans-serif;
 }
+
+#carrossel > h1 {
+    color: white;
+}
+
 .barra {
     background: rgb(18,15,20);
     background: linear-gradient(90deg, #120f14 15%, #e64500 50%, #120f14 85%);
@@ -26,9 +31,13 @@ h1 {
     color: #e84600;
 }
 
-#sobre > h5 {
+h5 {
     color: white;
     margin: 3%;
+}
+
+h2 {
+    margin-left: 3%;
 }
 
 #sobre > h6 {
@@ -37,17 +46,30 @@ h1 {
 }
 
 #keyfeatures {
-    width: 62%;
-    text-align: center;
+    width: 69%;
     margin-left: auto;
     margin-right: auto;
 }
 
-#keyfeatures > img {
-    width: 10;
-    height: 5;
+.imgkeyfeatures {
+    width: 30vw;
+    height: 16vw;
 }
 
 .col {
-    margin: 5%;
+    margin: 3%;
+    text-align: left;
 }
+
+@media (max-width: 950px) {
+    .imgkeyfeatures {
+        width: 50vw;
+        height: 28vw;
+    }
+    .col {
+        text-align: center;
+    }
+  }
+  
+
+
