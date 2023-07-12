@@ -22,7 +22,7 @@ body{
     margin-right: auto;
 }
 
-#sobre > h1 {
+h1 {
     color: #e84600;
 }
 
@@ -36,3 +36,18 @@ body{
     margin: 3%;
 }
 
+#keyfeatures {
+    width: 62%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#keyfeatures > img {
+    width: 10;
+    height: 5;
+}
+
+.col {
+    margin: 5%;
+}
