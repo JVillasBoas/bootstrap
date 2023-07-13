@@ -29,6 +29,7 @@ body{
 
 h1 {
     color: #e84600;
+    font-weight: bold
 }
 
 h5 {
@@ -38,6 +39,7 @@ h5 {
 
 h2 {
     margin-left: 3%;
+    font-weight: bold
 }
 
 #sobre > h6 {
@@ -46,6 +48,13 @@ h2 {
 }
 
 #keyfeatures {
+    width: 69%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#loja {
+    text-align: center;
     width: 69%;
     margin-left: auto;
     margin-right: auto;
@@ -70,6 +79,53 @@ h2 {
         text-align: center;
     }
   }
-  
 
+.card {
+    background-color: #2b3035;
+}
+
+.card-title {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+.botaocard {
+    background-color: #24c7f1;
+}
+
+#formulario {
+    width: 36%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #2b3035;
+    padding: 1%;
+    border-radius: 2%;
+}
+
+.form-control {
+    margin: 3%;
+    text-align: left;
+}
+
+form {
+    margin: 7%;
+}
+
+label {
+    color: rgb(204, 199, 199);
+    margin-left: 3%;
+}
+
+#form-titulo {
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+#form-botao {
+    margin-top: 8%;
+    text-align: center;
+}
 
