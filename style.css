@@ -28,6 +28,7 @@ body{
 }
 
 h1 {
+    text-align: center;
     color: #e84600;
     font-weight: bold
 }
@@ -82,6 +83,8 @@ h2 {
 
 .card {
     background-color: #2b3035;
+    width: 18rem;
+    margin: 3% 0;
 }
 
 .card-title {
@@ -96,7 +99,15 @@ p {
     background-color: #24c7f1;
 }
 
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
 #formulario {
+    margin-top: 3%;
     width: 36%;
     margin-left: auto;
     margin-right: auto;

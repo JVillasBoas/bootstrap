@@ -3,7 +3,7 @@ O site deve conter:
 	2. Menu fixes/stick (bootstrap) +
 	3. Carrossel (bootstrap) +
 	4. animação CSS (responsivo, loop 4s) !!!
-	5. formuário estilizado fieldset(bootstrap) !!!
+	5. formuário estilizado fieldset(bootstrap) !!! +
 	6. 4 seções pelo menos 
 	7. loading=lazy nas últimas imagens
 	8. versão minificada html
@@ -11,8 +11,8 @@ O site deve conter:
 	10. responsividade
 
 	dúvidas 
-	* com ou sem bold
+	* com ou sem bold +
 	* alinhar textos no key Features
 	* Avaiable now h1
-	* mudar a ordem quando diminui a tela
-	* responsividade dos cards (tamanho fixo)
+	* mudar a ordem quando diminui a tela 
+	* responsividade dos cards (tamanho fixo) +
