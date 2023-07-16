@@ -54,13 +54,6 @@ h2 {
     margin-right: auto;
 }
 
-#loja {
-    text-align: center;
-    width: 69%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .imgkeyfeatures {
     width: 30vw;
     height: 16vw;
@@ -103,14 +96,16 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    text-align: center;
+    width: 69%;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
 #formulario {
-    margin-top: 3%;
-    width: 36%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 3% 8%;
+    width: 90%;
     background-color: #2b3035;
     padding: 1%;
     border-radius: 2%;
@@ -140,3 +135,78 @@ label {
     text-align: center;
 }
 
+footer {
+    background-color: #2b3035;
+}
+
+#rodape {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.linha {
+    display: flex;
+    flex-direction: row;
+}
+
+.linha div {
+    margin: 6%;
+}
+
+.imgfooter {
+    width: 8vw;
+    height: 2vw;
+}
+
+#midfooter {
+    display: flex;
+    justify-content: center;
+}
+
+#imgmidfooter {
+    width: 18vw;
+    height: 14vw;
+}
+
+@media (max-width: 950px) {
+    #imgmidfooter {
+        width: 25vw;
+        height: 21vw;
+    }
+    .imgfooter {
+        width: 12vw;
+        height: 3vw;
+    }
+  }
+
+#contato {
+    background-color: #120f14;
+    text-align: center;
+}
+
+small {
+    color:  white;
+}
+
+#arco {
+    animation: go-back2 4s infinite alternate;
+}
+
+@keyframes go-back2 {
+    from
+    {
+        transform: translateX(100px);
+        
+    }
+    to 
+    {
+        transform: translateX(0px);
+    }
+}
+
+#arco-arietta {
+    
+    margin-top: 50%;
+   
+}
